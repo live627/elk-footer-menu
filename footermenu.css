@@ -1,0 +1,30 @@
+#footermenu a {
+    border-bottom: dotted 1px grey;
+    margin-bottom: 0.25em;
+    padding: 0.25em;
+    text-decoration: none;
+    display: block;
+}
+#footermenu li {
+    display: block;
+}
+#footermenu li:first-child {
+    border-bottom: 1px solid #D8D2C2;
+    margin-bottom: 0.25em;
+    padding-bottom: 0.25em;
+    font-size: 1.25em;
+}
+@media (min-width: 721px) {
+    #footermenu ul {
+        width: 45%;
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 3px 8px;
+        vertical-align: top;
+    }
+}
+@media (min-width: 1221px) {
+    #footermenu ul {
+        width: 30%;
+    }
+}
