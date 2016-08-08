@@ -16,7 +16,7 @@ if (file_exists(dirname(__FILE__) . '/SSI.php') && !defined('ELK'))
 elseif (!defined('ELK'))
     die('<b>Error:</b> Cannot uninstall - please verify you put this in the same place as ElkArte\'s SSI.php.');
 
-remove_integration_function('integrate_pre_include', '$sourcedir/FooterMenu.php');
+remove_integration_function('integrate_pre_include', 'SOURCEDIR/FooterMenu.php');
 remove_integration_function('integrate_load_theme', 'footer_menu_load_theme');
 remove_integration_function('integrate_admin_areas', 'footer_menu_admin_areas');
 
