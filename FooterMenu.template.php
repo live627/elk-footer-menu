@@ -10,7 +10,7 @@
 
 function template_editcategory()
 {
-    global $context, $txt, $settings, $scripturl;
+    global $context, $txt, $scripturl;
 
     echo '
     <div id="admincenter">
@@ -58,7 +58,7 @@ function template_editcategory()
 
 function template_edit()
 {
-    global $context, $txt, $settings, $scripturl;
+    global $context, $txt, $scripturl;
 
     echo '
     <div id="admincenter">
@@ -176,5 +176,5 @@ function template_footer_menu_below()
         }
 
     echo '
-        <section>';
+        </section>';
 }

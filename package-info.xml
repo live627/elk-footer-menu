@@ -4,23 +4,25 @@
     <id>live627:footer_menu</id>
     <name>Footer Menu</name>
     <type>modification</type>
-    <version>1.0</version>
+    <version>1.1</version>
 
-    <install for="1.0 - 1.0.99">
+    <install for="1.1 - 1.1.99">
         <database>install.php</database>
         <require-file name="FooterMenu.php" destination="SOURCEDIR" />
         <require-file name="FooterMenu.template.php" destination="THEMEDIR" />
         <require-file name="footermenu.css" destination="THEMEDIR/css" />
-        <require-file name="FooterMenu.english.php" destination="LANGUAGEDIR" />
+        <require-file name="FooterMenu.english.php" destination="LANGUAGEDIR/english" />
+        <require-file name="FooterMenu.french.php" destination="LANGUAGEDIR/french" />
     </install>
 
-    <uninstall for="1.0 - 1.0.99">
+    <uninstall for="1.1 - 1.1.99">
         <database>uninstall-optional.php</database>
         <code>uninstall-required.php</code>
         <remove-file name="SOURCEDIR/FooterMenu.php" />
         <remove-file name="THEMEDIR/FooterMenu.template.php" />
         <remove-file name="THEMEDIR/css/footermenu.css" />
-        <remove-file name="LANGUAGEDIR/FooterMenu.english.php" />
+        <remove-file name="LANGUAGEDIR/english/FooterMenu.english.php" />
+        <remove-file name="LANGUAGEDIR/french/FooterMenu.french.php" />
     </uninstall>
 
 </package-info>
