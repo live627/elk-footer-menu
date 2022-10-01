@@ -3,7 +3,9 @@
 [![GitHub issues](https://img.shields.io/github/issues/live627/elk-footer-menu.svg)](https://github.com/live627/elk-footer-menu/issues)
 [![Latest Version](https://img.shields.io/github/release/live627/elk-footer-menu.svg)](https://github.com/live627/elk-footer-menu/releases)
 [![Total Downloads](https://img.shields.io/github/downloads/live627/elk-footer-menu/total.svg)](https://github.com/live627/elk-footer-menu/releases)
-[![Support](https://supporter.60devs.com/api/b/axlsj1o8o0amepfrr5eqlcjza)](https://supporter.60devs.com/give/axlsj1o8o0amepfrr5eqlcjza)
+[![Crowdin](https://badges.crowdin.net/footer-menu/localized.svg)](https://crowdin.com/project/footer-menu)
+[![Support](http://img.shields.io/badge/PayPal-$-009966.svg)](https://www.paypal.me/JohnRayes)
+
 ## Introduction:
 This is a direct port of my SMF mod to Elkarte.
 
